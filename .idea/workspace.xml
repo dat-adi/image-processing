@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5abe8771-3587-4ab6-8908-c1eb7694f530" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/ImageProcessing.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/image-processing.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/color_channel_stats.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/cluster_histograms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/descriptors/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/descriptors/labhistograms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search_shirts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tetris.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tictactoe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tictactow.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/translation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Masking.py" beforeDir="false" afterPath="$PROJECT_DIR$/Masking.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rotation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rotation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adaptive_thresholding.py" beforeDir="false" afterPath="$PROJECT_DIR$/adaptive_thresholding.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/approx_realworld.py" beforeDir="false" afterPath="$PROJECT_DIR$/approx_realworld.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/approx_simple.py" beforeDir="false" afterPath="$PROJECT_DIR$/approx_simple.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arithmetic.py" beforeDir="false" afterPath="$PROJECT_DIR$/arithmetic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto_canny.py" beforeDir="false" afterPath="$PROJECT_DIR$/auto_canny.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bilateral.py" beforeDir="false" afterPath="$PROJECT_DIR$/bilateral.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitwise.py" beforeDir="false" afterPath="$PROJECT_DIR$/bitwise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blurring.py" beforeDir="false" afterPath="$PROJECT_DIR$/blurring.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/canny.py" beforeDir="false" afterPath="$PROJECT_DIR$/canny.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/color_histograms.py" beforeDir="false" afterPath="$PROJECT_DIR$/color_histograms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/colorspaces.py" beforeDir="false" afterPath="$PROJECT_DIR$/colorspaces.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connected_components_labelling.py" beforeDir="false" afterPath="$PROJECT_DIR$/connected_components_labelling.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contour_properties.py" beforeDir="false" afterPath="$PROJECT_DIR$/contour_properties.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contour_properties_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/contour_properties_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crop.py" beforeDir="false" afterPath="$PROJECT_DIR$/crop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drawing.py" beforeDir="false" afterPath="$PROJECT_DIR$/drawing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/equalize.py" beforeDir="false" afterPath="$PROJECT_DIR$/equalize.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finding_and_drawing_contours.py" beforeDir="false" afterPath="$PROJECT_DIR$/finding_and_drawing_contours.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flipping.py" beforeDir="false" afterPath="$PROJECT_DIR$/flipping.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getting_and_setting.py" beforeDir="false" afterPath="$PROJECT_DIR$/getting_and_setting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grayscale_histogram.py" beforeDir="false" afterPath="$PROJECT_DIR$/grayscale_histogram.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hats.py" beforeDir="false" afterPath="$PROJECT_DIR$/hats.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/histogram_with_mask.py" beforeDir="false" afterPath="$PROJECT_DIR$/histogram_with_mask.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/load_display_save.py" beforeDir="false" afterPath="$PROJECT_DIR$/load_display_save.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/load_display_save1.py" beforeDir="false" afterPath="$PROJECT_DIR$/load_display_save1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mag_orientation.py" beforeDir="false" afterPath="$PROJECT_DIR$/mag_orientation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morphological.py" beforeDir="false" afterPath="$PROJECT_DIR$/morphological.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_commands.py" beforeDir="false" afterPath="$PROJECT_DIR$/new_commands.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/otsu_thresholding.py" beforeDir="false" afterPath="$PROJECT_DIR$/otsu_thresholding.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resize.py" beforeDir="false" afterPath="$PROJECT_DIR$/resize.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple_thresholding.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple_thresholding.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sobel.py" beforeDir="false" afterPath="$PROJECT_DIR$/sobel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort_contours.py" beforeDir="false" afterPath="$PROJECT_DIR$/sort_contours.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/splitting_and_merging.py" beforeDir="false" afterPath="$PROJECT_DIR$/splitting_and_merging.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/example/cluster_histograms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="34" selection-start-column="34" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/example/cluster_histograms.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="70" />
+    <option name="y" value="20" />
+    <option name="width" value="1750" />
+    <option name="height" value="1030" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="image-processing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="image-processing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="image-processing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="image-processing" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\narui\PycharmProjects\image-processing" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="image-processing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\narui\AppData\Local\Programs\Python\Python37-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="image-processing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\narui\PycharmProjects\ImageProcessing\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5abe8771-3587-4ab6-8908-c1eb7694f530" name="Default Changelist" comment="" />
+      <created>1580191845669</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580191845669</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966975" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49867898" visible="true" weight="0.32931727" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.501321" side_tool="true" weight="0.32931727" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blurring.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/color_histograms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adaptive_thresholding.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="73" selection-start-line="5" selection-start-column="73" selection-end-line="5" selection-end-column="73" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/approx_realworld.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/approx_simple.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arithmetic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/cluster_histograms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="34" selection-start-column="34" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

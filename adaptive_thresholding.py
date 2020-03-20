@@ -7,7 +7,7 @@ ap.add_argument("-i", "--image", required=True, help="Path to the image")
 args = vars(ap.parse_args())
 
 image = cv2.imread(args["image"])
-iamge = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 blurred = cv2.GaussianBlur(image, (5, 5), 0)
 cv2.imshow("image", image)
 

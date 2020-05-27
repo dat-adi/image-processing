@@ -42,6 +42,18 @@ Through the code's execution, you learn essential aspects such as,
 ```
 ## Chapter 2
 
+This section is dedicated to the programs which are useful for learning the usage of feature vectors, image descriptors, and feature descriptors.
+
+Throughout this section you will learn about the concepts such as,
+```
+- Color channel statistics
+- Image description using color histograms
+- Local binary pattern usage
+- Utilization of histogram of Oriented Gradients
+- Keypoint Detection using FAST, Harris, and Difference of Gaussian methods
+- SIFT Feature Descriptor
+```
+
 ## Chapter 3
 
 ## Chapter 4

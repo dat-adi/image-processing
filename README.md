@@ -2,9 +2,9 @@
 A compilation of Image Processing programs that I've worked on.
 
 ## Motivation
-This entire repository has been built on the documentation provided, and the guidance offered by Professor Sibi Chakkaravarthy, from the years I've studied in the university, Vellore Institute of Technology AP, and he has guided me through the learning process of Image Processing, and it's use cases.
+This entire repository has been built on the documentation provided, and the guidance offered by **Professor Sibi Chakkaravarthy**, from the years I've studied in the university, Vellore Institute of Technology AP, and he has guided me through the learning process of Image Processing, and it's use cases.
 
-This repository was made to self-evaluate and debug errors in the programs, since there are significant issues with changing programs from Python 2 to Python 3
+This repository was made to self-evaluate and debug errors in the programs, since there are significant issues with changing programs from Python 2 to Python 3.
 
 ## Index
 
@@ -68,6 +68,16 @@ In this section, there are multiple case studies, and most of the programs will 
 ```
 
 ## Chapter 4
+
+This section of the programs are to be utilised in order to test their functionality in Raspberry Pi, and whether OpenCV can be used with projects on small and simple boards to make technical projects.
+
+This section is very short, concentrating more on taking input from the surroundings, rather than using computing or detecting algorithms.
+
+```
+- Home Surveillance and Motion Detection
+- Face Detection in Images
+- Detecting faces through a Video
+```
 
 ## Chapter 5
 

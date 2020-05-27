@@ -92,3 +92,12 @@ The programs in this section are useful to realise the concepts, such as,
 ```
 
 ## Chapter 6
+
+This section is dedicated to specific case studies, on implementing OpenCV and Machine Learning to experiment with datasets and image classification.
+
+The case studies which will be tried and tested are,
+```
+- Video Object Tracking
+- Book Cover Identification
+- Plant Classification
+```

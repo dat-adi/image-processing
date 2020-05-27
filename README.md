@@ -56,6 +56,17 @@ Throughout this section you will learn about the concepts such as,
 
 ## Chapter 3
 
+This section is to help you build your own custom model of an object detector, some programs in order to train your detector while other programs to test them.
+
+In this section, there are multiple case studies, and most of the programs will be focusing on real world items, and detection.
+
+```
+- Training your object detector to detect stop signs
+- Utilising image pyramids for testing images
+- Using Sliding windows to figure out the exact location where an image resides
+- Building a custom object detector for training and testing
+```
+
 ## Chapter 4
 
 ## Chapter 5

@@ -81,4 +81,14 @@ This section is very short, concentrating more on taking input from the surround
 
 ## Chapter 5
 
+This section is for learning the implementation and integration between OpenCV and Machine Learning, testing Supervised Learning algorithms.
+
+The programs in this section are useful to realise the concepts, such as,
+```
+- Using supervised learning to train and test datasets, using MNIST as a platform
+- Using Logistic Regression as a measure to implement machine learning, and image classification
+- Support Vector machine for image classification
+- Using the KMeans algorithm in order to display and classify images based on their properties
+```
+
 ## Chapter 6

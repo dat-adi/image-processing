@@ -1,6 +1,11 @@
 import cv2
+import argparse
 
-image = cv2.imread("tictactow.PNG")
+ap = argparse.ArgumentParser()
+ap.add_argument('-i', '--image', required=True, help="Path to the image")
+args = vars(ap.parse_args())
+
+image = cv2.imread(args['image'])
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
 (cnts, c) = cv2.findContours(gray.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)

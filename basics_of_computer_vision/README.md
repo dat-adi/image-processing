@@ -13,22 +13,22 @@ This is simply the order of the programs and the checkboxes to check whether or 
 - [x] arithmetic<br>
 - [x] bitwise<br>
 - [x] masking<br>
-- [ ] splitting_and_merging<br>
-- [ ] morphological<br>
-- [ ] hats<br>
-- [ ] blurring<br>
-- [ ] bilateral<br>
-- [ ] colorspaces<br>
-- [ ] simple_thresholding<br>
-- [ ] otsu_thresholding<br>
-- [ ] adaptive_thresholding<br>
-- [ ] sobel<br>
-- [ ] mag_orientation<br>
-- [ ] canny<br>
-- [ ] auto_canny<br>
-- [ ] finding_and_drawing_contours<br>
-- [ ] contour_properties<br>
-- [ ] tictactoe<br>
+- [x] splitting_and_merging<br>
+- [x] morphological<br>
+- [x] hats<br>
+- [x] blurring<br>
+- [x] bilateral<br>
+- [x] colorspaces<br>
+- [x] simple_thresholding<br>
+- [x] otsu_thresholding<br>
+- [x] adaptive_thresholding<br>
+- [x] sobel<br>
+- [x] mag_orientation<br>
+- [x] canny<br>
+- [x] auto_canny<br>
+- [x] finding_and_drawing_contours<br>
+- [x] contour_properties<br>
+- [x] tictactoe<br>
 - [ ] contour_properties_2<br>
 - [ ] approx_simple<br>
 - [ ] approx_realworld<br>

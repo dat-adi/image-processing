@@ -7,12 +7,12 @@ This is simply the order of the programs and the checkboxes to check whether or 
 - [x] drawing<br>
 - [x] translation<br>
 - [x] rotation<br>
-- [ ] resize<br>
-- [ ] flipping<br>
-- [ ] crop<br>
-- [ ] arithmetic<br>
-- [ ] bitwise<br>
-- [ ] masking<br>
+- [x] resize<br>
+- [x] flipping<br>
+- [x] crop<br>
+- [x] arithmetic<br>
+- [x] bitwise<br>
+- [x] masking<br>
 - [ ] splitting_and_merging<br>
 - [ ] morphological<br>
 - [ ] hats<br>

@@ -12,7 +12,7 @@ ap = argparse.ArgumentParser()
 ap.add_argument("-i", "--image", required=True, help="Path to the image")
 args = vars(ap.parse_args())
 
-image = cv2.imread("numberPlate1.jpg")
+image = cv2.imread(args['image'])
 (h, w) = image.shape[:2]
 cv2.imshow("Original", image)
 cv2.waitKey(0)

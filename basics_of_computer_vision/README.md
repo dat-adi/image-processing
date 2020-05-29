@@ -3,9 +3,9 @@ This is simply the order of the programs and the checkboxes to check whether or 
 
 - [x] load_display_save1<br>
 - [x] load_display_save<br>
-- [ ] getting_and_setting<br>
-- [ ] drawing<br>
-- [ ] translation<br>
+- [x] getting_and_setting<br>
+- [x] drawing<br>
+- [x] translation<br>
 - [ ] rotation<br>
 - [ ] resize<br>
 - [ ] flipping<br>

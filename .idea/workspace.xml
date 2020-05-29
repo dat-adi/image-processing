@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="5abe8771-3587-4ab6-8908-c1eb7694f530" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basics_of_computer_vision/getting_and_setting.py" beforeDir="false" afterPath="$PROJECT_DIR$/basics_of_computer_vision/getting_and_setting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics_of_computer_vision/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/basics_of_computer_vision/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics_of_computer_vision/Rotation.py" beforeDir="false" afterPath="$PROJECT_DIR$/basics_of_computer_vision/rotation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics_of_computer_vision/crop.py" beforeDir="false" afterPath="$PROJECT_DIR$/basics_of_computer_vision/crop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics_of_computer_vision/flipping.py" beforeDir="false" afterPath="$PROJECT_DIR$/basics_of_computer_vision/flipping.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics_of_computer_vision/resize.py" beforeDir="false" afterPath="$PROJECT_DIR$/basics_of_computer_vision/resize.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +21,8 @@
         <entry file="file://$PROJECT_DIR$/basics_of_computer_vision/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="68">
-                <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+              <first_editor relative-caret-position="136">
+                <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
               </first_editor>
               <second_editor />
             </state>
@@ -26,10 +30,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/basics_of_computer_vision/getting_and_setting.py">
+        <entry file="file://$PROJECT_DIR$/basics_of_computer_vision/crop.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,8 +89,13 @@
         <option value="$PROJECT_DIR$/books.csv" />
         <option value="$USER_HOME$/Anaconda3/envs/image-processing/Lib/site-packages/cv2/__init__.py" />
         <option value="$PROJECT_DIR$/basics_of_computer_vision/load_display_save1.py" />
-        <option value="$PROJECT_DIR$/basics_of_computer_vision/README.md" />
         <option value="$PROJECT_DIR$/basics_of_computer_vision/getting_and_setting.py" />
+        <option value="$PROJECT_DIR$/basics_of_computer_vision/translation.py" />
+        <option value="$PROJECT_DIR$/basics_of_computer_vision/rotation.py" />
+        <option value="$PROJECT_DIR$/basics_of_computer_vision/README.md" />
+        <option value="$PROJECT_DIR$/basics_of_computer_vision/resize.py" />
+        <option value="$PROJECT_DIR$/basics_of_computer_vision/flipping.py" />
+        <option value="$PROJECT_DIR$/basics_of_computer_vision/crop.py" />
       </list>
     </option>
   </component>
@@ -227,8 +239,8 @@
     </configuration>
     <list>
       <item itemvalue="Python.image-processing" />
-      <item itemvalue="Python.load_display_save1" />
       <item itemvalue="Python.track" />
+      <item itemvalue="Python.load_display_save1" />
     </list>
     <recent_temporary>
       <list>
@@ -262,14 +274,20 @@
       <option name="project" value="LOCAL" />
       <updated>1590756982107</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Changed environment for testing purposes and works just fine.">
+      <created>1590761409136</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1590761409136</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22457068" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22457068" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -280,7 +298,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4980185" visible="true" weight="0.30254352" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.4980185" visible="true" weight="0.30254352" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5019815" side_tool="true" weight="0.32931727" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32931727" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -290,14 +308,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added in README.md for chapter 1." />
-    <option name="LAST_COMMIT_MESSAGE" value="added in README.md for chapter 1." />
+    <MESSAGE value="Changed environment for testing purposes and works just fine." />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed environment for testing purposes and works just fine." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/auto_canny.py" />
-    <entry file="file://$PROJECT_DIR$/finding_and_drawing_contours.py" />
-    <entry file="file://$PROJECT_DIR$/contour_properties.py" />
-    <entry file="file://$PROJECT_DIR$/tictactoe.py" />
-    <entry file="file://$PROJECT_DIR$/approx_simple.py" />
     <entry file="file://$PROJECT_DIR$/approx_realworld.py" />
     <entry file="file://$PROJECT_DIR$/sort_contours.py" />
     <entry file="file://$PROJECT_DIR$/color_histograms.py" />
@@ -368,16 +382,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basics_of_computer_vision/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="68">
-            <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/basics_of_computer_vision/histogram_with_mask.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-51">
@@ -389,8 +393,68 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/basics_of_computer_vision/getting_and_setting.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        <state relative-caret-position="340">
+          <caret line="42" column="31" lean-forward="true" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basics_of_computer_vision/rotation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-71">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basics_of_computer_vision/translation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basics_of_computer_vision/resize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basics_of_computer_vision/flipping.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basics_of_computer_vision/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="136">
+            <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basics_of_computer_vision/crop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

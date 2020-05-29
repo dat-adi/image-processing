@@ -6,7 +6,7 @@ This is simply the order of the programs and the checkboxes to check whether or 
 - [x] getting_and_setting<br>
 - [x] drawing<br>
 - [x] translation<br>
-- [ ] rotation<br>
+- [x] rotation<br>
 - [ ] resize<br>
 - [ ] flipping<br>
 - [ ] crop<br>

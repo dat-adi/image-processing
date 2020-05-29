@@ -6,7 +6,7 @@ ap = argparse.ArgumentParser()
 ap.add_argument("-i", "--image", required=True, help="Path to the image")
 args = vars(ap.parse_args())
 
-image = cv2.imread("C:/Users/narui/OneDrive/Pictures/Wallpapers/cropped-1920-1080-993443.png")
+image = cv2.imread(args['image'])
 cv2.imshow("Original", image)
 
 r = 150.0/image.shape[1]

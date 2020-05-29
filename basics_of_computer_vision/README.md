@@ -29,12 +29,12 @@ This is simply the order of the programs and the checkboxes to check whether or 
 - [x] finding_and_drawing_contours<br>
 - [x] contour_properties<br>
 - [x] tictactoe<br>
-- [ ] contour_properties_2<br>
-- [ ] approx_simple<br>
-- [ ] approx_realworld<br>
-- [ ] sort_contours<br>
-- [ ] grayscale_histogram<br>
-- [ ] color_histograms<br>
-- [ ] equalize<br>
-- [ ] histogram_with_mask<br>
+- [x] contour_properties_2<br>
+- [x] approx_simple<br>
+- [x] approx_realworld<br>
+- [x] sort_contours<br>
+- [x] grayscale_histogram<br>
+- [x] color_histograms<br>
+- [x] equalize<br>
+- [x] histogram_with_mask<br>
 - [ ] connected_components_labeling

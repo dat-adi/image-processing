@@ -1,6 +1,5 @@
 from skimage.filters import threshold_local
 from skimage import measure
-import scipy
 import numpy as np
 import cv2
 import argparse

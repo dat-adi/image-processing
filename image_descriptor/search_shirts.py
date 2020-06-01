@@ -32,23 +32,21 @@ for imagePath in paths.list_images(args["dataset"]):
     filename = imagePath[imagePath.rfind("/")+1:]
     index[filename] = hist
 
-    print(args['query'])
     query = cv2.imread(args["query"])
     queryFeatures = describe(cv2.cvtColor(query, cv2.COLOR_BGR2GRAY))
 
     cv2.imshow("Query", query)
     results = {}
-    print(results)
 
     for (k, features) in index.items():
         d = 0.5 * np.sum(((features - queryFeatures) ** 2 / (features + queryFeatures + 1e-10)))
         results[k] = d
 
-        results = sorted([(v, k) for (k, v) in results.items()])[:3]
+    results = sorted([(v, k) for (k, v) in results.items()])[:3]
 
     for (i, (score, filename)) in enumerate(results):
         print("{}, {}, {}".format(i + 1, filename, score))
         image = cv2.imread(args["dataset"] + "/" + filename)
         cv2.imshow("Results {}".format(i + 1), image)
 
-    cv2.waitKey(0)
+        cv2.waitKey(0)

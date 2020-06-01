@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5abe8771-3587-4ab6-8908-c1eb7694f530" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/image-processing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/image-processing.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image_descriptor/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/image_descriptor/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image_descriptor/detect_dog.py" beforeDir="false" afterPath="$PROJECT_DIR$/image_descriptor/detect_dog.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image_descriptor/recognize_car_logos.py" beforeDir="false" afterPath="$PROJECT_DIR$/image_descriptor/recognize_car_logos.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/image_descriptor/search_shirts.py" beforeDir="false" afterPath="$PROJECT_DIR$/image_descriptor/search_shirts.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -166,7 +160,7 @@
       <option name="presentableId" value="Default" />
       <updated>1580191845669</updated>
       <workItem from="1591013166367" duration="95000" />
-      <workItem from="1591016977970" duration="5116000" />
+      <workItem from="1591016977970" duration="6092000" />
     </task>
     <task id="LOCAL-00001" summary="added in README.md for chapter 1.">
       <created>1590755577384</created>
@@ -224,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590857371972</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="updated readme.md and a few programs">
+      <created>1591024815630</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1591024815631</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,12 +237,21 @@
     <MESSAGE value="Added in argparse so that people can use their own images for the program." />
     <MESSAGE value="updated masking and readme.md" />
     <MESSAGE value="updated readme.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated readme.md" />
+    <MESSAGE value="updated readme.md and a few programs" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated readme.md and a few programs" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1591024813382">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1591024813382" />
     <state x="548" y="187" key="FileChooserDialogImpl" timestamp="1591018483590">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="548" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1591018483590" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1591024823574">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1591024823574" />
   </component>
 </project>

@@ -2,30 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5abe8771-3587-4ab6-8908-c1eb7694f530" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/image_descriptor/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/image-processing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/image-processing.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image_descriptor/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/image_descriptor/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image_descriptor/detect_dog.py" beforeDir="false" afterPath="$PROJECT_DIR$/image_descriptor/detect_dog.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image_descriptor/recognize_car_logos.py" beforeDir="false" afterPath="$PROJECT_DIR$/image_descriptor/recognize_car_logos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image_descriptor/search_shirts.py" beforeDir="false" afterPath="$PROJECT_DIR$/image_descriptor/search_shirts.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/image_descriptor/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="102">
-                <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -42,103 +31,28 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/example/cluster_histograms.py" />
-        <option value="$PROJECT_DIR$/recognize_car_logos.py" />
-        <option value="$PROJECT_DIR$/adaptive_thresholding.py" />
-        <option value="$PROJECT_DIR$/sort_contours.py" />
-        <option value="$PROJECT_DIR$/detect_fast.py" />
-        <option value="$PROJECT_DIR$/detect_harris.py" />
-        <option value="$PROJECT_DIR$/detect_dog.py" />
-        <option value="$PROJECT_DIR$/extract_sift.py" />
-        <option value="$PROJECT_DIR$/train_detector.py" />
-        <option value="$PROJECT_DIR$/test_detector.py" />
-        <option value="$PROJECT_DIR$/test_pyramid.py" />
-        <option value="$PROJECT_DIR$/test_sliding_windows.py" />
-        <option value="$PROJECT_DIR$/train_detector_1.py" />
-        <option value="$PROJECT_DIR$/test_detector_1.py" />
-        <option value="$PROJECT_DIR$/motion_detector.py" />
-        <option value="$PROJECT_DIR$/detect_faces.py" />
-        <option value="$PROJECT_DIR$/detect_faces_video.py" />
-        <option value="$USER_HOME$/Anaconda3/envs/image-processing/Lib/site-packages/sklearn/__init__.py" />
-        <option value="$PROJECT_DIR$/mnist_demo.py" />
-        <option value="$PROJECT_DIR$/train_and_test.py" />
-        <option value="$PROJECT_DIR$/classify.py" />
-        <option value="$PROJECT_DIR$/cluster_colors.py" />
-        <option value="$PROJECT_DIR$/track.py" />
-        <option value="$USER_HOME$/Anaconda3/envs/image-processing/Lib/site-packages/imutils/convenience.py" />
-        <option value="$PROJECT_DIR$/search.py" />
-        <option value="$PROJECT_DIR$/books.csv" />
-        <option value="$USER_HOME$/Anaconda3/envs/image-processing/Lib/site-packages/cv2/__init__.py" />
-        <option value="$PROJECT_DIR$/basics_of_computer_vision/load_display_save1.py" />
-        <option value="$PROJECT_DIR$/basics_of_computer_vision/getting_and_setting.py" />
-        <option value="$PROJECT_DIR$/basics_of_computer_vision/translation.py" />
-        <option value="$PROJECT_DIR$/basics_of_computer_vision/rotation.py" />
-        <option value="$PROJECT_DIR$/basics_of_computer_vision/resize.py" />
-        <option value="$PROJECT_DIR$/basics_of_computer_vision/flipping.py" />
-        <option value="$PROJECT_DIR$/basics_of_computer_vision/crop.py" />
-        <option value="$PROJECT_DIR$/basics_of_computer_vision/masking.py" />
-        <option value="$PROJECT_DIR$/basics_of_computer_vision/tictactoe.py" />
-        <option value="$PROJECT_DIR$/basics_of_computer_vision/connected_components_labelling.py" />
-        <option value="$PROJECT_DIR$/basics_of_computer_vision/README.md" />
-        <option value="$PROJECT_DIR$/image_descriptor/README.md" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="70" />
-    <option name="y" value="20" />
-    <option name="width" value="1750" />
-    <option name="height" value="1030" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="image-processing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="image-processing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="image-processing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="image-processing" type="462c0819:PsiDirectoryNode" />
-              <item name="image_descriptor" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectId" id="1ciYhfBwwmLTxdAaAJ1ju611d9c" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="D:/CyberSecPyth" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\narui\PycharmProjects\image-processing" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Python.load_display_save1">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -153,9 +67,10 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -174,6 +89,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -195,6 +111,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basics_of_computer_vision/load_display_save1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -216,6 +133,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/track.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -247,6 +165,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580191845669</updated>
+      <workItem from="1591013166367" duration="95000" />
+      <workItem from="1591016977970" duration="5116000" />
     </task>
     <task id="LOCAL-00001" summary="added in README.md for chapter 1.">
       <created>1590755577384</created>
@@ -297,31 +217,18 @@
       <option name="project" value="LOCAL" />
       <updated>1590771479449</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="updated readme.md">
+      <created>1590857371972</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1590857371972</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22457068" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32931727" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4980185" weight="0.30254352" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5019815" side_tool="true" weight="0.32931727" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32931727" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added in README.md for chapter 1." />
@@ -331,211 +238,10 @@
     <MESSAGE value="updated readme.md" />
     <option name="LAST_COMMIT_MESSAGE" value="updated readme.md" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/example/cluster_histograms.py" />
-    <entry file="file://$PROJECT_DIR$/recognize_car_logos.py" />
-    <entry file="file://$PROJECT_DIR$/search_shirts.py" />
-    <entry file="file://$PROJECT_DIR$/connected_components_labelling.py" />
-    <entry file="file://$PROJECT_DIR$/canny.py" />
-    <entry file="file://$PROJECT_DIR$/bitwise.py" />
-    <entry file="file://$PROJECT_DIR$/arithmetic.py" />
-    <entry file="file://$PROJECT_DIR$/detect_fast.py" />
-    <entry file="file://$PROJECT_DIR$/detect_harris.py" />
-    <entry file="file://$PROJECT_DIR$/contour_properties_2.py" />
-    <entry file="file://$PROJECT_DIR$/extract_sift.py" />
-    <entry file="file://$PROJECT_DIR$/train_detector.py" />
-    <entry file="file://$PROJECT_DIR$/test_pyramid.py" />
-    <entry file="file://$PROJECT_DIR$/train_detector_1.py" />
-    <entry file="file://$PROJECT_DIR$/test_detector_1.py" />
-    <entry file="file://$PROJECT_DIR$/motion_detector.py" />
-    <entry file="file://$PROJECT_DIR$/test_detector.py" />
-    <entry file="file://$PROJECT_DIR$/detect_faces_video.py" />
-    <entry file="file://$PROJECT_DIR$/detect_faces.py" />
-    <entry file="file://$USER_HOME$/Anaconda3/envs/image-processing/Lib/site-packages/sklearn/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="113" selection-start-line="113" selection-end-line="113" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mnist_demo.py" />
-    <entry file="file://$PROJECT_DIR$/train_and_test.py" />
-    <entry file="file://$PROJECT_DIR$/classify.py" />
-    <entry file="file://$PROJECT_DIR$/cluster_colors.py" />
-    <entry file="file://$USER_HOME$/Anaconda3/envs/image-processing/Lib/site-packages/imutils/convenience.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/track.py" />
-    <entry file="file://$PROJECT_DIR$/detect_dog.py" />
-    <entry file="file://$PROJECT_DIR$/adaptive_thresholding.py" />
-    <entry file="file://$PROJECT_DIR$/test_sliding_windows.py" />
-    <entry file="file://$PROJECT_DIR$/splitting_and_merging.py" />
-    <entry file="file://$PROJECT_DIR$/simple_thresholding.py" />
-    <entry file="file://$PROJECT_DIR$/books.csv" />
-    <entry file="file://$PROJECT_DIR$/search.py" />
-    <entry file="file://$USER_HOME$/Anaconda3/envs/image-processing/Lib/site-packages/cv2/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basics_of_computer_vision/load_display_save1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basics_of_computer_vision/histogram_with_mask.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basics_of_computer_vision/getting_and_setting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="42" column="31" lean-forward="true" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basics_of_computer_vision/rotation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-71">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basics_of_computer_vision/translation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basics_of_computer_vision/resize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basics_of_computer_vision/flipping.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basics_of_computer_vision/crop.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basics_of_computer_vision/masking.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basics_of_computer_vision/tictactoe.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basics_of_computer_vision/sort_contours.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-258">
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/test_image_2.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basics_of_computer_vision/color_histograms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-411">
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basics_of_computer_vision/connected_components_labelling.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="43" selection-start-column="43" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basics_of_computer_vision/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="646">
-            <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image_descriptor/color_channel_stats.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image_descriptor/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="102">
-            <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="548" y="187" key="FileChooserDialogImpl" timestamp="1591018483590">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="548" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1591018483590" />
   </component>
 </project>

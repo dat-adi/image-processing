@@ -16,7 +16,7 @@ numPoints = 24
 
 def describe(image, eps=1e-7):
     lbp = feature.local_binary_pattern(image, numPoints, radius, method="uniform")
-    (hist, _) = np.histogram(lbp.ravel(), bins=range(0, numPoints + 3), range=(0, numPoints+2))
+    (hist, _) = np.histogram(lbp.ravel(), bins=range(0, numPoints + 3), range=(0, numPoints + 2))
     hist = hist.astype("float")
     hist /= (hist.sum() + eps)
 
@@ -28,24 +28,27 @@ for imagePath in paths.list_images(args["dataset"]):
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
     hist = describe(gray)
 
-    filename = imagePath[imagePath.rfind("/"), 1:]
+    imagePath = imagePath.replace('\\', '/')
+    filename = imagePath[imagePath.rfind("/")+1:]
     index[filename] = hist
 
-query = cv2.imread(args["query"])
-queryFeatures = describe(cv2.cvtColor(query, cv2.COLOR_BGR2GRAY))
+    print(args['query'])
+    query = cv2.imread(args["query"])
+    queryFeatures = describe(cv2.cvtColor(query, cv2.COLOR_BGR2GRAY))
 
-cv2.imshow("Query", query)
-results = {}
+    cv2.imshow("Query", query)
+    results = {}
+    print(results)
 
-for (k, features) in index.items():
-    d = 0.5*np.sum(((features - queryFeatures)**2/(features + queryFeatures + 1e-10)))
-    results[k] = d
+    for (k, features) in index.items():
+        d = 0.5 * np.sum(((features - queryFeatures) ** 2 / (features + queryFeatures + 1e-10)))
+        results[k] = d
 
-    results = sorted([(v, k) for (k, v) in results.items()])[:3]
+        results = sorted([(v, k) for (k, v) in results.items()])[:3]
 
-for (i, (score, filename)) in enumerate(results):
-    print("{}, {}, {}".format(i + 1, filename, score))
-    image = cv2.imread(args["dataset"] + "/" + filename)
-    cv2.imshow("Results {}".format(i + 1), image)
+    for (i, (score, filename)) in enumerate(results):
+        print("{}, {}, {}".format(i + 1, filename, score))
+        image = cv2.imread(args["dataset"] + "/" + filename)
+        cv2.imshow("Results {}".format(i + 1), image)
 
-cv2.waitKey(0)
+    cv2.waitKey(0)

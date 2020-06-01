@@ -49,7 +49,6 @@ for(i, imagePath) in enumerate(paths.list_images(args["test"])):
     pred = model.predict(H.reshape(-1, 1))[0]
 
     hogImage = exposure.rescale_intensity(hogImage, out_range=(0, 255))
-    hogImage = hogImage.typecodes("uint8")
     cv2.imshow("HOG Image {}".format(i+1), hogImage)
 
     cv2.putText(image, pred.title(), (10, 35), cv2.FONT_HERSHEY_SIMPLEX, 1.0, (0, 255, 0), 3)

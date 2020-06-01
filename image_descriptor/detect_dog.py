@@ -10,7 +10,7 @@ image = cv2.imread(args["image"])
 orig = image.copy()
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
-sift = cv2.xfeatures2d_SIFT()
+sift = cv2.xfeatures2d.SIFT_create()
 kp = sift.detect(gray, None)
 print("Key points : {}".format(len(kp)))
 

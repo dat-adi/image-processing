@@ -16,21 +16,22 @@ images = []
 boxes = []
 
 for imagePath in paths.list_images(args["class"]):
+    imagePath = imagePath.replace('\\', '/')
     imageID = imagePath[imagePath.rfind("/") + 1:].split("_")[1]
-    imageID = imagePath.replace(".jpg", "")
-    p = "{}/annotations_{}.mat".format(args["annotations"], imageID)
+    imageID = imageID.replace(".jpg", "")
+    p = "{}\\annotation_{}.mat".format(args["annotations"], imageID)
     annotations = loadmat(p)["box_coord"]
 
     bb = [dlib.rectangle(left=long(x), top=long(y), right=long(w), bottom=long(h))]
     for (y, h, x, w) in annotations:
         boxes.append(bb)
 
-images.append(io.imread(imagePath))
-print("[INFO] training detector...")
-detector = dlib.train_simple_object_detector(images, boxes, options)
-print("[INFO] dumping classifier to file...")
-detector.save(args["output"])
+    images.append(io.imread(imagePath))
+    print("[INFO] training detector...")
+    detector = dlib.train_simple_object_detector(images, boxes, options)
+    print("[INFO] dumping classifier to file...")
+    detector.save(args["output"])
 
-win = dlib.image_window()
-win.set_image(detector)
-dlib.hit_enter_to_continue()
+    win = dlib.image_window()
+    win.set_image(detector)
+    dlib.hit_enter_to_continue()

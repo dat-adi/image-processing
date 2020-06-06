@@ -2,7 +2,136 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5abe8771-3587-4ab6-8908-c1eb7694f530" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/working_with_raspberry_pi/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0003.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0004.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0005.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0006.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0007.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0008.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0009.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0010.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0011.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0012.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0013.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0014.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0015.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0016.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0017.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0018.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0019.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0020.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0021.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0022.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0023.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0024.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0025.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0026.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0027.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0028.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0029.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0030.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0031.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0032.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0033.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0034.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0035.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0036.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0037.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0038.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0039.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0040.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0041.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0042.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0043.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0044.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0045.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0046.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0047.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0048.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0049.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0050.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0051.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0052.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0053.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0054.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0055.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0056.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0057.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0058.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0059.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0060.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0061.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0062.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0063.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/101_ObjectCategories/stop_sign/image_0064.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0001.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0002.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0003.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0004.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0005.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0006.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0007.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0008.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0009.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0010.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0011.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0012.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0013.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0014.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0015.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0016.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0017.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0018.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0019.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0020.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0021.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0022.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0023.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0024.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0025.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0026.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0027.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0028.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0029.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0030.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0031.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0032.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0033.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0034.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0035.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0036.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0037.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0038.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0039.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0040.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0041.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0042.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0043.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0044.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0045.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0046.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0047.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0048.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0049.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0050.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0051.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0052.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0053.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0054.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0055.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0056.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0057.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0058.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0059.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0060.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0061.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0062.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0063.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/CALTECH_images/Annotations/stop_sign/annotation_0064.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/building_custom_detectors/train_detector.py" beforeDir="false" afterPath="$PROJECT_DIR$/building_custom_detectors/train_detector.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +172,9 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\narui\PycharmProjects\image-processing\assets" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\narui\PycharmProjects\image-processing" />
     </key>
@@ -160,7 +292,7 @@
       <updated>1580191845669</updated>
       <workItem from="1591013166367" duration="95000" />
       <workItem from="1591016977970" duration="9328000" />
-      <workItem from="1591446456559" duration="1010000" />
+      <workItem from="1591446456559" duration="5337000" />
     </task>
     <task id="LOCAL-00001" summary="added in README.md for chapter 1.">
       <created>1590755577384</created>
@@ -253,7 +385,21 @@
       <option name="project" value="LOCAL" />
       <updated>1591447386039</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="updated readme.md for working_with_raspberry_pi">
+      <created>1591447528415</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1591447528415</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Finished making all the readmes, now need to check programs.">
+      <created>1591447642418</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1591447642418</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,24 +416,26 @@
     <MESSAGE value="didn't change anything but the function usage, still waiting on that good old SIFT integration" />
     <MESSAGE value="Added in a link to monitor OpenCV release updates." />
     <MESSAGE value="Updated two README.md for two categories." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated two README.md for two categories." />
+    <MESSAGE value="updated readme.md for working_with_raspberry_pi" />
+    <MESSAGE value="Finished making all the readmes, now need to check programs." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished making all the readmes, now need to check programs." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1591447384827">
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1591447641500">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1591447384827" />
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1591447641500" />
     <state x="548" y="187" key="FileChooserDialogImpl" timestamp="1591018483590">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="548" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1591018483590" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1591447387896">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1591447645531">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1591447387896" />
-    <state x="431" y="181" key="search.everywhere.popup" timestamp="1591447408527">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1591447645531" />
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1591453731259">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="431" y="181" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1591447408527" />
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1591453731259" />
   </component>
 </project>

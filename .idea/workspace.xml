@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5abe8771-3587-4ab6-8908-c1eb7694f530" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/building_custom_detectors/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image_classification/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/image_classification/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/working_with_raspberry_pi/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +160,7 @@
       <updated>1580191845669</updated>
       <workItem from="1591013166367" duration="95000" />
       <workItem from="1591016977970" duration="9328000" />
-      <workItem from="1591446456559" duration="797000" />
+      <workItem from="1591446456559" duration="1010000" />
     </task>
     <task id="LOCAL-00001" summary="added in README.md for chapter 1.">
       <created>1590755577384</created>
@@ -247,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591446997315</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Updated two README.md for two categories.">
+      <created>1591447386039</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1591447386039</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,20 +269,25 @@
     <MESSAGE value="Fixed up the problem with the dictionary being converted into a list" />
     <MESSAGE value="didn't change anything but the function usage, still waiting on that good old SIFT integration" />
     <MESSAGE value="Added in a link to monitor OpenCV release updates." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added in a link to monitor OpenCV release updates." />
+    <MESSAGE value="Updated two README.md for two categories." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated two README.md for two categories." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1591446994881">
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1591447384827">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1591446994881" />
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1591447384827" />
     <state x="548" y="187" key="FileChooserDialogImpl" timestamp="1591018483590">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="548" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1591018483590" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1591446999761">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1591447387896">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1591446999761" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1591447387896" />
+    <state x="431" y="181" key="search.everywhere.popup" timestamp="1591447408527">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="431" y="181" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1591447408527" />
   </component>
 </project>

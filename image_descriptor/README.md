@@ -8,3 +8,6 @@ A list to check which programs work and which don't.
 - [x] detect_harris<br>
 - [ ] detect_dog<br>
 - [ ] extract_sift<br>
+
+**NOTE**: As of right now, I'm still waiting for them to put up a new release on the OpenCV GitHub page.<br>
+Will be leaving in a link here so that I can immediately access it, [OpenCV release page](https://github.com/opencv/opencv/releases).

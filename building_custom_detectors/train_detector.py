@@ -22,9 +22,8 @@ for imagePath in paths.list_images(args["class"]):
     p = "{}\\annotation_{}.mat".format(args["annotations"], imageID)
     annotations = loadmat(p)["box_coord"]
 
-    bb = [dlib.rectangle(left=long(x), top=long(y), right=long(w), bottom=long(h))]
-    for (y, h, x, w) in annotations:
-        boxes.append(bb)
+    bb = [dlib.rectangle(left=x, top=y, right=w, bottom=h) for (y, h, x, w) in annotations]
+    boxes.append(bb)
 
     images.append(io.imread(imagePath))
     print("[INFO] training detector...")

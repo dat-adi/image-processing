@@ -9,6 +9,7 @@ args = vars(ap.parse_args())
 
 image = cv2.imread(args["image"])
 
+
 def pyramid(image, scale=1.5, min_size=(30, 30)):
     yield image
     while True:

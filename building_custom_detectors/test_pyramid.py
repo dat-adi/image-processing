@@ -10,16 +10,16 @@ args = vars(ap.parse_args())
 image = cv2.imread(args["image"])
 
 
-def pyramid(image, scale=1.5, min_size=(30, 30)):
-    yield image
+def pyramid(img, scale=1.5, min_size=(30, 30)):
+    yield img
     while True:
-        w = int(image.shape[1]/scale)
-        image = imutils.resize(image, width=w)
-        if image.shape[0] < min_size[1] or image.shape[1] < min_size[0]:
+        w = int(img.shape[1]/scale)
+        img = imutils.resize(img, width=w)
+        if img.shape[0] < min_size[1] or img.shape[1] < min_size[0]:
             break
-        yield image
+        yield img
 
-        for(i, layer) in enumerate(pyramid(image, scale=args["scale"])):
+        for(i, layer) in enumerate(pyramid(img, scale=args["scale"])):
             cv2.imshow("Layer {}".format(i+1), layer)
 
     cv2.waitKey(0)

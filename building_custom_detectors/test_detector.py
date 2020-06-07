@@ -13,9 +13,9 @@ for testingPath in paths.list_images(args["testing"]):
     image = cv2.imread(testingPath)
     boxes = detector(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
 
-for b in boxes:
-    (x, y, w, h) = (b.left(), b.top(), b.right(), b.bottom())
-    cv2.rectangle(image, (x, y), (w, h), (0, 255, 0), 2)
+    for b in boxes:
+        (x, y, w, h) = (b.left(), b.top(), b.right(), b.bottom())
+        cv2.rectangle(image, (x, y), (w, h), (0, 255, 0), 2)
 
-cv2.imshow("Image", image)
-cv2.waitKey(0)
+    cv2.imshow("Image", image)
+    cv2.waitKey(0)

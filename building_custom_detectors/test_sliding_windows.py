@@ -12,9 +12,9 @@ args = vars(ap.parse_args())
 
 
 def sliding_windows(img, step_size, window_size):
-    for y in range(0, img.shape[0], step_size):
-        for x in range(0, img.shape[1], step_size):
-            yield x, y, img[y:y + window_size[1], x:x + window_size[0]]
+    for i in range(0, img.shape[0], step_size):
+        for j in range(0, img.shape[1], step_size):
+            yield i, j, img[j:j + window_size[1], i:i + window_size[0]]
 
 
 image = cv2.imread(args["image"])

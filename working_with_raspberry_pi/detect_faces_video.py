@@ -18,9 +18,9 @@ while True:
 
     frame = imutils.resize(frame, width=400)
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-    detector = cv2.CascadeClassifier(args["face"])
-    faceRects = detector.detectMultiScale(gray, scaleFactor=1.3, minNeighbours=5, minSize=(30, 30),
-                                          flags=cv2.cv.HAAR_SCALE_IMAGE)  # problem with HAAR_SCALE_IMAGE
+    detector = cv2.CascadeClassifier(args['faces'])
+    faceRects = detector.detectMultiScale(gray, scaleFactor=1.3, minSize=(30, 30),
+                                          flags=cv2.CASCADE_SCALE_IMAGE)  # problem with HAAR_SCALE_IMAGE
 
     for (x, y, w, h) in faceRects:
         cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 255, 0), 2)

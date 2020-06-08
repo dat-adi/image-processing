@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5abe8771-3587-4ab6-8908-c1eb7694f530" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/working_with_raspberry_pi/detect_faces_video.py" beforeDir="false" afterPath="$PROJECT_DIR$/working_with_raspberry_pi/detect_faces_video.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image_classification/mnist_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/image_classification/mnist_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/working_with_raspberry_pi/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/working_with_raspberry_pi/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +168,7 @@
       <workItem from="1591446456559" duration="9497000" />
       <workItem from="1591537717564" duration="780000" />
       <workItem from="1591545576569" duration="4600000" />
-      <workItem from="1591606388557" duration="6173000" />
+      <workItem from="1591606388557" duration="6842000" />
     </task>
     <task id="LOCAL-00001" summary="added in README.md for chapter 1.">
       <created>1590755577384</created>
@@ -351,7 +352,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591609392704</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Updated functions used from pyth2 to pyth3.">
+      <created>1591620019813</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1591620019884</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -380,25 +388,26 @@
     <MESSAGE value="updated README.md" />
     <MESSAGE value="updating README.md" />
     <MESSAGE value="updated main README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated main README.md" />
+    <MESSAGE value="Updated functions used from pyth2 to pyth3." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated functions used from pyth2 to pyth3." />
   </component>
   <component name="WindowStateProjectService">
     <state x="497" y="234" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591457853458">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="497" y="234" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1591457853458" />
-    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1591609391666">
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1591620016664">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1591609391666" />
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1591620016664" />
     <state x="548" y="187" key="FileChooserDialogImpl" timestamp="1591018483590">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="548" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1591018483590" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1591609396590">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1591620021958">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1591609396590" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1591620021958" />
     <state x="611" y="204" key="refactoring.ChangeSignatureDialog" timestamp="1591549196184">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

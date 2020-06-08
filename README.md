@@ -40,6 +40,9 @@ Through the code's execution, you learn essential aspects such as,
 - Histogram Masks and Histogram Equalization
 - Connected Component Labelling
 ```
+
+Link to the the [chapter](https://github.com/dat-adi/image-processing/tree/master/basics_of_computer_vision).
+
 ## Chapter 2
 
 This section is dedicated to the programs which are useful for learning the usage of feature vectors, image descriptors, and feature descriptors.
@@ -54,6 +57,8 @@ Throughout this section you will learn about the concepts such as,
 - SIFT Feature Descriptor
 ```
 
+Link to the [chapter](https://github.com/dat-adi/image-processing/tree/master/image_descriptor).
+
 ## Chapter 3
 
 This section is to help you build your own custom model of an object detector, some programs in order to train your detector while other programs to test them.
@@ -67,6 +72,8 @@ In this section, there are multiple case studies, and most of the programs will 
 - Building a custom object detector for training and testing
 ```
 
+Link to the [chapter](https://github.com/dat-adi/image-processing/tree/master/building_custom_detectors).
+
 ## Chapter 4
 
 This section of the programs are to be utilised in order to test their functionality in Raspberry Pi, and whether OpenCV can be used with projects on small and simple boards to make technical projects.
@@ -78,6 +85,8 @@ This section is very short, concentrating more on taking input from the surround
 - Face Detection in Images
 - Detecting faces through a Video
 ```
+
+Link to the [chapter](https://github.com/dat-adi/image-processing/tree/master/working_with_raspberry_pi).
 
 ## Chapter 5
 
@@ -91,6 +100,8 @@ The programs in this section are useful to realise the concepts, such as,
 - Using the KMeans algorithm in order to display and classify images based on their properties
 ```
 
+Link to the [chapter](https://github.com/dat-adi/image-processing/tree/master/image_classification).
+
 ## Chapter 6
 
 This section is dedicated to specific case studies, on implementing OpenCV and Machine Learning to experiment with datasets and image classification.
@@ -101,3 +112,5 @@ The case studies which will be tried and tested are,
 - Book Cover Identification
 - Plant Classification
 ```
+
+Link to the [chapter](https://github.com/dat-adi/image-processing/tree/master/case_studies).

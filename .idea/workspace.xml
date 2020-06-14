@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5abe8771-3587-4ab6-8908-c1eb7694f530" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/narui.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/detect_carplate.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image_classification/mnist_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/image_classification/mnist_demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/working_with_raspberry_pi/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/working_with_raspberry_pi/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/numberPlate1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/car_plate_images/plate6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/numberPlate2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/car_plate_images/plate7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics_of_computer_vision/simple_thresholding.py" beforeDir="false" afterPath="$PROJECT_DIR$/basics_of_computer_vision/simple_thresholding.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +36,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="D:/CyberSecPyth" />
@@ -42,13 +47,15 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\narui\PycharmProjects\image-processing\assets" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\narui\PycharmProjects\image-processing" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\narui\PycharmProjects\image-processing\assets\car_plate_images" />
+      <recent name="C:\Users\narui\PycharmProjects\image-processing\assets" />
       <recent name="C:\Users\narui\PycharmProjects\image-processing" />
     </key>
   </component>
@@ -168,7 +175,10 @@
       <workItem from="1591446456559" duration="9497000" />
       <workItem from="1591537717564" duration="780000" />
       <workItem from="1591545576569" duration="4600000" />
-      <workItem from="1591606388557" duration="6842000" />
+      <workItem from="1591606388557" duration="8162000" />
+      <workItem from="1591863430362" duration="78000" />
+      <workItem from="1592143732819" duration="90000" />
+      <workItem from="1592143863715" duration="2699000" />
     </task>
     <task id="LOCAL-00001" summary="added in README.md for chapter 1.">
       <created>1590755577384</created>
@@ -359,7 +369,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591620019884</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="mnist_demo works perfectly now.">
+      <created>1591620710600</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1591620710600</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -389,32 +406,60 @@
     <MESSAGE value="updating README.md" />
     <MESSAGE value="updated main README.md" />
     <MESSAGE value="Updated functions used from pyth2 to pyth3." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated functions used from pyth2 to pyth3." />
+    <MESSAGE value="mnist_demo works perfectly now." />
+    <option name="LAST_COMMIT_MESSAGE" value="mnist_demo works perfectly now." />
   </component>
   <component name="WindowStateProjectService">
+    <state x="655" y="268" key="#Notifications" timestamp="1592144659963">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="655" y="268" key="#Notifications/0.0.1536.864@0.0.1536.864" timestamp="1592144659963" />
     <state x="497" y="234" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591457853458">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="497" y="234" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1591457853458" />
-    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1591620016664">
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1591620709119">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1591620016664" />
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1591620709119" />
     <state x="548" y="187" key="FileChooserDialogImpl" timestamp="1591018483590">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="548" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1591018483590" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1591620021958">
+    <state width="1493" height="216" key="GridCell.Tab.0.bottom" timestamp="1592144717987">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1591620021958" />
+    <state width="1493" height="216" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1592144717987" />
+    <state width="1493" height="216" key="GridCell.Tab.0.center" timestamp="1592144717987">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="216" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1592144717987" />
+    <state width="1493" height="216" key="GridCell.Tab.0.left" timestamp="1592144717986">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="216" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1592144717986" />
+    <state width="1493" height="216" key="GridCell.Tab.0.right" timestamp="1592144717987">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="216" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1592144717987" />
+    <state x="277" y="77" key="SettingsEditor" timestamp="1592144616373">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="277" y="77" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1592144616373" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1591620713497">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1591620713497" />
     <state x="611" y="204" key="refactoring.ChangeSignatureDialog" timestamp="1591549196184">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="611" y="204" key="refactoring.ChangeSignatureDialog/0.0.1536.864@0.0.1536.864" timestamp="1591549196184" />
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1591453731259">
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1592144208643">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1591453731259" />
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1592144208643" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/image_processing$load_display_save1.coverage" NAME="load_display_save1 Coverage Results" MODIFIED="1592144705472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basics_of_computer_vision" />
   </component>
 </project>

@@ -2,6 +2,15 @@ import cv2
 import argparse
 import numpy as np
 
+
+def auto_canny(image, sigma=0.33):
+    v = np.median(image)
+    lower = int(max(0, (1.0-sigma)*v))
+    upper = int(max(255, (1.0+sigma)*v))
+    edged = cv2.Canny(image, lower, upper)
+    return edged
+
+
 ap = argparse.ArgumentParser()
 ap.add_argument("-i", "--image", required=True, help="Path to the image file")
 args = vars(ap.parse_args())
@@ -24,4 +33,10 @@ print("Otsu's threshold value : {}".format(T))
 
 otsu_output = cv2.bitwise_and(gray, gray, mask=threshInv)
 cv2.imshow("Output", otsu_output)
+cv2.waitKey(0)
+
+tight = cv2.Canny(otsu_output, 225, 250)
+auto = auto_canny(otsu_output)
+cv2.imshow("Tight Canny", tight)
+cv2.imshow("Auto Canny Result", auto)
 cv2.waitKey(0)

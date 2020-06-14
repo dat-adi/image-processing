@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5abe8771-3587-4ab6-8908-c1eb7694f530" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/narui.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testing/detect_carplate.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/numberPlate1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/car_plate_images/plate6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/numberPlate2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/car_plate_images/plate7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basics_of_computer_vision/simple_thresholding.py" beforeDir="false" afterPath="$PROJECT_DIR$/basics_of_computer_vision/simple_thresholding.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/detect_carplate.py" beforeDir="false" afterPath="$PROJECT_DIR$/testing/detect_carplate.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +174,7 @@
       <workItem from="1591606388557" duration="8162000" />
       <workItem from="1591863430362" duration="78000" />
       <workItem from="1592143732819" duration="90000" />
-      <workItem from="1592143863715" duration="2699000" />
+      <workItem from="1592143863715" duration="3377000" />
     </task>
     <task id="LOCAL-00001" summary="added in README.md for chapter 1.">
       <created>1590755577384</created>
@@ -376,7 +372,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591620710600</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="started working on car number plate identification. Thresholding start.">
+      <created>1592146643236</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1592146643236</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -407,7 +410,8 @@
     <MESSAGE value="updated main README.md" />
     <MESSAGE value="Updated functions used from pyth2 to pyth3." />
     <MESSAGE value="mnist_demo works perfectly now." />
-    <option name="LAST_COMMIT_MESSAGE" value="mnist_demo works perfectly now." />
+    <MESSAGE value="started working on car number plate identification. Thresholding start." />
+    <option name="LAST_COMMIT_MESSAGE" value="started working on car number plate identification. Thresholding start." />
   </component>
   <component name="WindowStateProjectService">
     <state x="655" y="268" key="#Notifications" timestamp="1592144659963">
@@ -418,10 +422,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="497" y="234" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1591457853458" />
-    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1591620709119">
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1592146639859">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1591620709119" />
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1592146639859" />
     <state x="548" y="187" key="FileChooserDialogImpl" timestamp="1591018483590">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -446,10 +450,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="277" y="77" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1592144616373" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1591620713497">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1592146647964">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1591620713497" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1592146647964" />
     <state x="611" y="204" key="refactoring.ChangeSignatureDialog" timestamp="1591549196184">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

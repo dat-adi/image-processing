@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5abe8771-3587-4ab6-8908-c1eb7694f530" name="Default Changelist" comment="Auto canny implementation.">
+    <list default="true" id="5abe8771-3587-4ab6-8908-c1eb7694f530" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testing/detect_carplate.py" beforeDir="false" afterPath="$PROJECT_DIR$/testing/detect_carplate.py" afterDir="false" />
     </list>
@@ -43,7 +43,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -174,7 +174,7 @@
       <workItem from="1591606388557" duration="8162000" />
       <workItem from="1591863430362" duration="78000" />
       <workItem from="1592143732819" duration="90000" />
-      <workItem from="1592143863715" duration="5611000" />
+      <workItem from="1592143863715" duration="8524000" />
     </task>
     <task id="LOCAL-00001" summary="added in README.md for chapter 1.">
       <created>1590755577384</created>
@@ -386,14 +386,20 @@
       <option name="project" value="LOCAL" />
       <updated>1592147490716</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Contour implementation">
+      <created>1592150224733</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1592150224733</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Changed environment for testing purposes and works just fine." />
     <MESSAGE value="Added in argparse so that people can use their own images for the program." />
     <MESSAGE value="updated masking and readme.md" />
     <MESSAGE value="updated readme.md" />
@@ -418,7 +424,8 @@
     <MESSAGE value="mnist_demo works perfectly now." />
     <MESSAGE value="started working on car number plate identification. Thresholding start." />
     <MESSAGE value="Auto canny implementation." />
-    <option name="LAST_COMMIT_MESSAGE" value="Auto canny implementation." />
+    <MESSAGE value="Contour implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Contour implementation" />
   </component>
   <component name="WindowStateProjectService">
     <state x="655" y="268" key="#Notifications" timestamp="1592144659963">
@@ -429,10 +436,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="497" y="234" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1591457853458" />
-    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1592147500010">
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1592150223763">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1592147500010" />
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1592150223763" />
     <state x="548" y="187" key="FileChooserDialogImpl" timestamp="1591018483590">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -453,14 +460,14 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="216" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1592144717987" />
-    <state x="277" y="77" key="SettingsEditor" timestamp="1592144616373">
+    <state x="277" y="77" key="SettingsEditor" timestamp="1592153167469">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="277" y="77" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1592144616373" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1592146647964">
+    <state x="277" y="77" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1592153167469" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1592150225347">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1592146647964" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1592150225347" />
     <state x="577" y="342" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592147512145">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

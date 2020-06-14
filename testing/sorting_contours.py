@@ -37,30 +37,17 @@ cv2.imshow("Tight Canny", tight)
 cv2.imshow("Auto Canny Result", auto)
 cv2.waitKey(0)
 
-cnts, _ = cv2.findContours(auto.copy(), cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+contours, _ = cv2.findContours(auto.copy(), cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
 clone = image.copy()
 
-mask = np.zeros_like(image)
-cv2.drawContours(mask, cnts, -1, 255, 2)
-out = np.zeros_like(image)
-out[mask == 255] = image[mask == 255]
-
-cv2.imshow("mask output", out)
-cv2.waitKey(0)
-
-print("Found {} contours".format(len(cnts)))
+contours = sorted(contours, key=cv2.contourArea, reverse=True)[:5]
+print("Found {} contours".format(len(contours)))
 hull = []
 
-for i in range(len(cnts)):
-    hull.append(cv2.convexHull(cnts[i], False))
+for i in range(len(contours)):
+    hull.append(cv2.convexHull(contours[i], False))
 
-for(i, c) in enumerate(cnts):
-    print("Drawing contour #{}".format(i + 1))
-    cv2.drawContours(clone, [c], -1, (0, 255, 0), 2)
-    cv2.imshow("Normal Contours", clone)
-cv2.waitKey(0)
-
-for(i, c) in enumerate(cnts):
+for i, c in enumerate(contours):
     print("Drawing contour #{}".format(i + 1))
     cv2.drawContours(clone, hull, i, (0, 255, 0), 2)
     cv2.imshow("Hull Contours", clone)

@@ -10,7 +10,6 @@ def auto_canny(image, sigma=0.33):
     edged = cv2.Canny(image, lower, upper)
     return edged
 
-
 ap = argparse.ArgumentParser()
 ap.add_argument("-i", "--image", required=True, help="Path to the image file")
 args = vars(ap.parse_args())
@@ -20,10 +19,15 @@ gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 cv2.imshow("GrayScale", gray)
 cv2.waitKey(0)
 
-blurred = cv2.GaussianBlur(gray, (7, 7), 0)
-cv2.imshow("image", image)
+dilated_img = cv2.dilate(gray, np.ones((7, 7), np.uint8))
+bg_img = cv2.medianBlur(dilated_img, 21)
+diff_img = 255 - cv2.absdiff(dilated_img, bg_img)
+norm_img = diff_img.copy()
+cv2.normalize(diff_img, norm_img, alpha=0, beta=255, norm_type=cv2.NORM_MINMAX, dtype=cv2.CV_8UC1)
+cv2.imshow("Output", norm_img)
+cv2.waitKey(0)
 
-(T, threshInv) = cv2.threshold(blurred, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
+(T, threshInv) = cv2.threshold(norm_img, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
 cv2.imshow("Threshold", threshInv)
 print("Otsu's threshold value : {}".format(T))
 

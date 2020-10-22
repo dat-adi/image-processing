@@ -9,7 +9,7 @@ image = cv2.imread(args["image"])
 cv2.imshow("Original", image)
 kernelSizes = [(3, 3), (9, 9), (15, 15)]
 
-for(kX, kY) in kernelSizes:
+for (kX, kY) in kernelSizes:
     blurred = cv2.blur(image, (kX, kY))
     cv2.imshow("Average ({},{})".format(kX, kY), blurred)
     cv2.waitKey(0)
@@ -17,7 +17,7 @@ for(kX, kY) in kernelSizes:
 cv2.destroyAllWindows()
 cv2.imshow("Original", image)
 
-for(kX, kY) in kernelSizes:
+for (kX, kY) in kernelSizes:
     blurred = cv2.GaussianBlur(image, (kX, kY), 0)
     cv2.imshow("Gaussian ({},{})".format(kX, kY), blurred)
     cv2.waitKey(0)

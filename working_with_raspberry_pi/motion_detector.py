@@ -32,7 +32,9 @@ while True:
     thresh = cv2.threshold(frameDelta, 25, 255, cv2.THRESH_BINARY)[1]
 
     thresh = cv2.dilate(thresh, None, iterations=2)
-    (cnts, _) = cv2.findContours(thresh.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+    (cnts, _) = cv2.findContours(
+        thresh.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE
+    )
 
     for c in cnts:
         if cv2.contourArea(c) < args["min_area"]:
@@ -41,7 +43,15 @@ while True:
         cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 255, 0), 2)
         text = "Occupied"
 
-        cv2.putText(frame, "Room status : {}".format(text), (10, 20), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
+        cv2.putText(
+            frame,
+            "Room status : {}".format(text),
+            (10, 20),
+            cv2.FONT_HERSHEY_SIMPLEX,
+            0.5,
+            (0, 0, 255),
+            2,
+        )
         cv2.imshow("Security Feed", frame)
         cv2.imshow("Thresh", thresh)
         cv2.imshow("Frame Delta", frameDelta)

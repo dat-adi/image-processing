@@ -10,7 +10,9 @@ bl = np.random.uniform(size=(100, 2)) + np.array([-2.0, -2.0])
 X = np.vstack([tl, tr, br, bl])
 y = np.hstack([[1] * len(tl), [-1] * len(tr), [1] * len(br), [-1] * len(bl)])
 
-(trainData, testData, trainLabels, testLabels) = train_test_split(X, y, test_size=0.25, random_state=42)
+(trainData, testData, trainLabels, testLabels) = train_test_split(
+    X, y, test_size=0.25, random_state=42
+)
 
 print("[RESULTS] SVM w/ Linear Kernel")
 model = SVC(kernel="linear")

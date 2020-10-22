@@ -5,16 +5,17 @@ import numpy as np
 
 def auto_canny(image, sigma=0.33):
     v = np.median(image)
-    lower = int(max(0, (1.0-sigma)*v))
-    upper = int(max(255, (1.0+sigma)*v))
+    lower = int(max(0, (1.0 - sigma) * v))
+    upper = int(max(255, (1.0 + sigma) * v))
     edged = cv2.Canny(image, lower, upper)
     return edged
+
 
 ap = argparse.ArgumentParser()
 ap.add_argument("-i", "--image", required=True, help="Path to the image file")
 args = vars(ap.parse_args())
 
-image = cv2.imread(args['image'])
+image = cv2.imread(args["image"])
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 cv2.imshow("GrayScale", gray)
 cv2.waitKey(0)
@@ -23,7 +24,9 @@ dilated_img = cv2.dilate(gray, np.ones((7, 7), np.uint8))
 bg_img = cv2.medianBlur(dilated_img, 21)
 diff_img = 255 - cv2.absdiff(dilated_img, bg_img)
 norm_img = diff_img.copy()
-cv2.normalize(diff_img, norm_img, alpha=0, beta=255, norm_type=cv2.NORM_MINMAX, dtype=cv2.CV_8UC1)
+cv2.normalize(
+    diff_img, norm_img, alpha=0, beta=255, norm_type=cv2.NORM_MINMAX, dtype=cv2.CV_8UC1
+)
 cv2.imshow("Output", norm_img)
 cv2.waitKey(0)
 
@@ -58,13 +61,13 @@ hull = []
 for i in range(len(cnts)):
     hull.append(cv2.convexHull(cnts[i], False))
 
-for(i, c) in enumerate(cnts):
+for (i, c) in enumerate(cnts):
     print("Drawing contour #{}".format(i + 1))
     cv2.drawContours(clone, [c], -1, (0, 255, 0), 2)
     cv2.imshow("Normal Contours", clone)
 cv2.waitKey(0)
 
-for(i, c) in enumerate(cnts):
+for (i, c) in enumerate(cnts):
     print("Drawing contour #{}".format(i + 1))
     cv2.drawContours(clone, hull, i, (0, 255, 0), 2)
     cv2.imshow("Hull Contours", clone)

@@ -17,7 +17,7 @@ cnts = sorted(cnts, key=cv2.contourArea, reverse=True)[:7]
 
 for c in cnts:
     peri = cv2.arcLength(c, True)
-    approx = cv2.approxPolyDP(c, 0.01*peri, True)
+    approx = cv2.approxPolyDP(c, 0.01 * peri, True)
 
     print("Original {}, Approx {}".format(len(c), len(approx)))
     if len(approx) == 4:

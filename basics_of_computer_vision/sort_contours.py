@@ -13,15 +13,25 @@ def sort_contours(cnts, method="left-to-right"):
         i = 1
 
     boundingBoxes = [cv2.boundingRect(c) for c in cnts]
-    (cnts, boundingBoxes) = zip(*sorted(zip(cnts, boundingBoxes), key=lambda b: b[1][i], reverse=reverse))
+    (cnts, boundingBoxes) = zip(
+        *sorted(zip(cnts, boundingBoxes), key=lambda b: b[1][i], reverse=reverse)
+    )
     return cnts, boundingBoxes
 
 
 def draw_contour(image, c, i):
     M = cv2.moments(c)
-    cX = int(M["m10"]/M["m00"])
-    cY = int(M["m01"]/M["m00"])
-    cv2.putText(image, "{}".format(i+1), (cX - 20, cY), cv2.FONT_HERSHEY_SIMPLEX, 1.0, (255, 255, 255), 2)
+    cX = int(M["m10"] / M["m00"])
+    cY = int(M["m01"] / M["m00"])
+    cv2.putText(
+        image,
+        "{}".format(i + 1),
+        (cX - 20, cY),
+        cv2.FONT_HERSHEY_SIMPLEX,
+        1.0,
+        (255, 255, 255),
+        2,
+    )
     return image
 
 
@@ -40,7 +50,9 @@ for chan in cv2.split(image):
 
 cv2.imshow("Edge Map", accumEdged)
 
-(cnts, _) = cv2.findContours(accumEdged.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+(cnts, _) = cv2.findContours(
+    accumEdged.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE
+)
 cnts = sorted(cnts, key=cv2.contourArea, reverse=True)[:5]
 orig = image.copy()
 
@@ -51,7 +63,7 @@ cv2.imshow("Unsorted", orig)
 
 (cnts, boundingBoxes) = sort_contours(cnts, method=args["method"])
 
-for(i, c) in enumerate(cnts):
+for (i, c) in enumerate(cnts):
     draw_contour(image, c, i)
 
 cv2.imshow("Sorted", image)

@@ -4,8 +4,12 @@ import cv2
 
 ap = argparse.ArgumentParser()
 ap.add_argument("-i", "--image", required=True, help="Path to the image")
-ap.add_argument("-l", "--lower-angle", type=float, default=175.0, help="Lower Orientation Angle")
-ap.add_argument("-u", "--upper-angle", type=float, default=180.0, help="Upper Orientation Angle")
+ap.add_argument(
+    "-l", "--lower-angle", type=float, default=175.0, help="Lower Orientation Angle"
+)
+ap.add_argument(
+    "-u", "--upper-angle", type=float, default=180.0, help="Upper Orientation Angle"
+)
 args = vars(ap.parse_args())
 
 image = cv2.imread(args["image"])
@@ -16,7 +20,7 @@ gX = cv2.Sobel(gray, cv2.CV_64F, 1, 0)
 gY = cv2.Sobel(gray, cv2.CV_64F, 0, 1)
 
 mag = np.sqrt((gX ** 2) + (gY ** 2))
-orientation = np.arctan2(gY, gX) * (180/np.pi) % 180
+orientation = np.arctan2(gY, gX) * (180 / np.pi) % 180
 
 idxs = np.where(orientation >= args["lower_angle"], orientation, -1)
 

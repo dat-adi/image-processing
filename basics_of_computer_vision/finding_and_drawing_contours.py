@@ -21,7 +21,7 @@ cv2.waitKey(0)
 clone = image.copy()
 cv2.destroyAllWindows()
 
-for(i, c) in enumerate(cnts):
+for (i, c) in enumerate(cnts):
     print("Drawing contour #{}".format(i + 1))
     cv2.drawContours(clone, [c], -1, (0, 255, 0), 2)
     cv2.imshow("Single Contour", clone)

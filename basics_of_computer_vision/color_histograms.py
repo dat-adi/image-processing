@@ -16,7 +16,7 @@ plt.title("Flattened Color Histogram")
 plt.xlabel("Bins")
 plt.ylabel("Number of Pixels")
 
-for(chan, color) in zip(chans, colors):
+for (chan, color) in zip(chans, colors):
     hist = cv2.calcHist([chan], [0], None, [256], [0, 256])
     plt.plot(hist, color=color)
     plt.xlim([0, 256])
@@ -41,9 +41,13 @@ p = ax.imshow(hist, interpolation="nearest")
 ax.set_title("2D Color Histogram for B and R")
 plt.colorbar(p)
 
-print("2D Histogram shape {} with {} values".format(hist.shape, hist.flatten().shape[0]))
+print(
+    "2D Histogram shape {} with {} values".format(hist.shape, hist.flatten().shape[0])
+)
 
 hist = cv2.calcHist([image], [0, 1, 2], None, [8, 8, 8], [0, 256, 0, 256, 0, 256])
-print("3D Histogram Shape: {} with {} values".format(hist.shape, hist.flatten().shape[0]))
+print(
+    "3D Histogram Shape: {} with {} values".format(hist.shape, hist.flatten().shape[0])
+)
 
 plt.show()

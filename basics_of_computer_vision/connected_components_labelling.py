@@ -11,7 +11,7 @@ args = vars(ap.parse_args())
 plate = cv2.imread(args["image"])
 
 V = cv2.split(cv2.cvtColor(plate, cv2.COLOR_BGR2HSV))[2]
-thresh = threshold_local(V, 29, offset=15).astype("uint8")*255
+thresh = threshold_local(V, 29, offset=15).astype("uint8") * 255
 thresh = cv2.bitwise_not(thresh)
 
 cv2.imshow("License Plate", plate)
@@ -21,7 +21,7 @@ labels = measure.label(thresh, neighbors=8, background=0)
 mask = np.zeros(thresh.shape, dtype="uint8")
 print("[INFO] found {} blobs".format(len(np.unique(labels))))
 
-for(i, label) in enumerate(np.unique(labels)):
+for (i, label) in enumerate(np.unique(labels)):
     if label == 0:
         print("[INFO] label: 0 (background)")
         continue

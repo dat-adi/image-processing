@@ -13,7 +13,11 @@ options.num_threads = 4
 options.be_verbose = True
 dlib.train_simple_object_detector(args["xml"], args["detector"], options)
 
-print("[INFO] training accuracy : {}".format(dlib.test_simple_object_detector(args["xml"], args["detector"])))
+print(
+    "[INFO] training accuracy : {}".format(
+        dlib.test_simple_object_detector(args["xml"], args["detector"])
+    )
+)
 detector = dlib.simple_object_detector(args["detector"])
 win = dlib.image_window()
 win.set_image(detector)

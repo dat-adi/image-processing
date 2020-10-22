@@ -25,8 +25,12 @@ def describe(image, mask=None):
 
 
 ap = argparse.ArgumentParser()
-ap.add_argument("-d", "--dataset", required=True, help="Path to the input data set directory")
-ap.add_argument("-k", "--clusters", type=int, default=2, help="Number of clusters to generate")
+ap.add_argument(
+    "-d", "--dataset", required=True, help="Path to the input data set directory"
+)
+ap.add_argument(
+    "-k", "--clusters", type=int, default=2, help="Number of clusters to generate"
+)
 args = vars(ap.parse_args())
 
 desc = LabHistograms([8, 8, 8])
@@ -48,8 +52,7 @@ for label in np.unique(labels):
 
 for (i, path) in enumerate(labelPaths):
     image = cv2.imread(path)
-    cv2.imshow("Cluster {}, Image{}".format(label+1, i+1), image)
+    cv2.imshow("Cluster {}, Image{}".format(label + 1, i + 1), image)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-

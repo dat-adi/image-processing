@@ -4,8 +4,12 @@ import dlib
 import cv2
 
 ap = argparse.ArgumentParser()
-ap.add_argument("-d", "--detector", required=True, help="Path to the trained object detector")
-ap.add_argument("-t", "--testing", required=True, help="Path to directory of testing images")
+ap.add_argument(
+    "-d", "--detector", required=True, help="Path to the trained object detector"
+)
+ap.add_argument(
+    "-t", "--testing", required=True, help="Path to directory of testing images"
+)
 args = vars(ap.parse_args())
 
 detector = dlib.simple_object_detector(args["detector"])

@@ -45,6 +45,6 @@ dst = cv2.dilate(dst, None)
 # Threshold for an optimal value, it may vary depending on the image.
 image[dst > 0.01 * dst.max()] = [0, 0, 255]
 
-cv2.imshow('dst', image)
-if cv2.waitKey(0) & 0xff == 27:
+cv2.imshow("dst", image)
+if cv2.waitKey(0) & 0xFF == 27:
     cv2.destroyAllWindows()

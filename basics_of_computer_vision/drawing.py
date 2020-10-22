@@ -34,7 +34,7 @@ cv2.waitKey(0)
 
 # centers the canvas to the center and forms rings based on the increment of the radius
 canvas = np.zeros((300, 300, 3), dtype="uint8")
-(centerX, centerY) = (int(canvas.shape[1]/2), int(canvas.shape[0]/2))
+(centerX, centerY) = (int(canvas.shape[1] / 2), int(canvas.shape[0] / 2))
 white = (255, 255, 255)
 for r in range(0, 175, 25):
     cv2.circle(canvas, (centerX, centerY), r, white)
@@ -50,7 +50,9 @@ for i in range(0, 25):
     cv2.imshow("Canvas", canvas)
     cv2.waitKey(0)
 
-image = cv2.imread("C:/Users/narui/OneDrive/Pictures/Wallpapers/cropped-1920-1080-993443.png")
+image = cv2.imread(
+    "C:/Users/narui/OneDrive/Pictures/Wallpapers/cropped-1920-1080-993443.png"
+)
 cv2.circle(image, (168, 188), 90, (0, 0, 255), -2)
 cv2.circle(image, (150, 164), 10, (0, 0, 255), -1)
 cv2.circle(image, (192, 174), 10, (0, 0, 255), -1)

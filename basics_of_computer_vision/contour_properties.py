@@ -14,8 +14,8 @@ clone = image.copy()
 
 for c in cnts:
     M = cv2.moments(c)
-    cX = int(M["m10"]/M["m00"])
-    cY = int(M["m01"]/M["m00"])
+    cX = int(M["m10"] / M["m00"])
+    cY = int(M["m01"] / M["m00"])
 
     cv2.circle(clone, (cX, cY), 10, (0, 255, 0), -1)
     cv2.imshow("Centroids", clone)
@@ -25,14 +25,22 @@ for c in cnts:
 for (i, c) in enumerate(cnts):
     area = cv2.contourArea(c)
     perimeter = cv2.arcLength(c, True)
-    print("Contour #%d --area %.2f, perimeter: %.2f" % (i+1, area, perimeter))
+    print("Contour #%d --area %.2f, perimeter: %.2f" % (i + 1, area, perimeter))
 
     cv2.drawContours(clone, [c], -1, (0, 255, 0), 2)
 
     M = cv2.moments(c)
-    cX = int(M["m10"]/M["m00"])
-    cY = int(M["m01"]/M["m00"])
-    cv2.putText(clone, "#%d" % (i+1), (cX - 20, cY), cv2.FONT_HERSHEY_SIMPLEX, 1.25, (255, 255, 255), 4)
+    cX = int(M["m10"] / M["m00"])
+    cY = int(M["m01"] / M["m00"])
+    cv2.putText(
+        clone,
+        "#%d" % (i + 1),
+        (cX - 20, cY),
+        cv2.FONT_HERSHEY_SIMPLEX,
+        1.25,
+        (255, 255, 255),
+        4,
+    )
 
 cv2.imshow("Contours", clone)
 cv2.waitKey(0)
@@ -67,7 +75,7 @@ clone = image.copy()
 for c in cnts:
     if len(c) >= 5:
         ellipse = cv2.fitEllipse(c)
-        cv2.ellipse(clone, ellipse,     (0, 255, 0), 2)
+        cv2.ellipse(clone, ellipse, (0, 255, 0), 2)
 
 cv2.imshow("Ellipses", clone)
 cv2.waitKey(0)

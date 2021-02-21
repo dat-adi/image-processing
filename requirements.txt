@@ -1,0 +1,8 @@
+opencv-python==4.5.1
+scikit-image
+scikit-learn
+scipy
+numpy
+imutils
+matplotlib
+dlib

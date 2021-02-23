@@ -1,4 +1,7 @@
+# importing the numpy module to create a canvas of 0 value pixels.
 import numpy as np
+
+# importing the OpenCV module
 import cv2
 
 canvas = np.zeros((300, 300, 3), dtype="uint8")
@@ -51,7 +54,7 @@ for i in range(0, 25):
     cv2.waitKey(0)
 
 image = cv2.imread(
-    "C:/Users/narui/OneDrive/Pictures/Wallpapers/cropped-1920-1080-993443.png"
+        "D:\\image-processing\\assets\\ey.jpg"
 )
 cv2.circle(image, (168, 188), 90, (0, 0, 255), -2)
 cv2.circle(image, (150, 164), 10, (0, 0, 255), -1)

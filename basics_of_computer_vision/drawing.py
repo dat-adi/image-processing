@@ -4,7 +4,10 @@ import numpy as np
 # importing the OpenCV module
 import cv2
 
+# setting up a black canvas of 900 pixels
 canvas = np.zeros((300, 300, 3), dtype="uint8")
+
+# setting the color green to a variable.
 green = (0, 255, 0)
 
 # To draw a green line across the canvas whose size you have to adjust through the editor?

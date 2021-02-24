@@ -43,6 +43,6 @@ cv2.imshow("Original", image)
 M = np.float32([[1, 0, 25], [0, 1, 50]])
 
 # call the translation function to translate the image
-shifted = imutils.translate(image, 0, 100)
+shifted = translate(image, 0, 100)
 cv2.imshow("Shifted Down", shifted)
 cv2.waitKey(0)

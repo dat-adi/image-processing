@@ -4,9 +4,6 @@ import numpy as np
 # importing argument parsers
 import argparse
 
-# the imutils package is used for a variety of transformations
-import imutils
-
 # importing the OpenCV module
 import cv2
 

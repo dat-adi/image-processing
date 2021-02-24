@@ -39,9 +39,6 @@ image = cv2.imread(args["image"])
 cv2.imshow("Original", image)
 
 
-# we define the translation matrix, with the shift in X and Y axes
-M = np.float32([[1, 0, 25], [0, 1, 50]])
-
 # call the translation function to translate the image
 shifted = translate(image, 0, 100)
 cv2.imshow("Shifted Down", shifted)

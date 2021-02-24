@@ -21,17 +21,28 @@ ap.add_argument("-i", "--image", required=True, help="Path to the image")
 args = vars(ap.parse_args())
 
 
+# defining a function for translation
 def translate(image, x, y):
+    # defining the translation matrix
     M = np.float32([[1, 0, x], [0, 1, y]])
+
+    # the cv2.warpAffine method does the actual translation
+    # containing the input image and the translation matrix
     shifted = cv2.warpAffine(image, M, (image.shape[1], image.shape[0]))
+
+    # we then return the image
     return shifted
 
 
+# reads the image from image location
 image = cv2.imread(args["image"])
 cv2.imshow("Original", image)
 
 
+# we define the translation matrix, with the shift in X and Y axes
 M = np.float32([[1, 0, 25], [0, 1, 50]])
+
+# call the translation function to translate the image
 shifted = imutils.translate(image, 0, 100)
 cv2.imshow("Shifted Down", shifted)
 cv2.waitKey(0)

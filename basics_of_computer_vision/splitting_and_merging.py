@@ -22,34 +22,34 @@ args = vars(ap.parse_args())
 # and reading the image using cv2.imread
 image = cv2.imread(args["image"])
 
-#splitting the image into three colors
+# splitting the image into three colors
 (B, G, R) = cv2.split(image)
 
-# Displaying the colors of the image
+# displaying the colors of the image
 cv2.imshow("Red", R)
 cv2.imshow("Green", G)
 cv2.imshow("Blue", B)
 cv2.waitKey(0)
 
-# Merging the colors and displaying the merged image
+# merging the colors and displaying the merged image
 merged = cv2.merge([B, G, R])
 cv2.imshow("Merged", merged)
 cv2.waitKey(0)
 
-# Deleting all the windows
+# deleting all the windows
 cv2.destroyAllWindows()
 
-# Creation of a blank image
+# creation of a blank image
 zeroes = np.zeros(image.shape[:2], dtype="uint8")
 
-# Displaying only the red portion of the image
+# displaying only the red portion of the image
 cv2.imshow("Red", cv2.merge([zeroes, zeroes, R]))
 
-# Displaying only the green portion of the image
+# displaying only the green portion of the image
 cv2.imshow("Green", cv2.merge([zeroes, G, zeroes]))
 
-# Displaying only the blue portion of the image
+# displaying only the blue portion of the image
 cv2.imshow("Blue", cv2.merge([B, zeroes, zeroes]))
 
-# Waiting for a key before exiting
+# waiting for a key before exiting
 cv2.waitKey(0)

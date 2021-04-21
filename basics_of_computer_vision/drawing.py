@@ -57,7 +57,7 @@ for i in range(0, 25):
     cv2.waitKey(0)
 
 image = cv2.imread(
-        "D:\\image-processing\\assets\\ey.jpg"
+        "~/Code/image-processing/assets/ey.jpg"
 )
 cv2.circle(image, (168, 188), 90, (0, 0, 255), -2)
 cv2.circle(image, (150, 164), 10, (0, 0, 255), -1)

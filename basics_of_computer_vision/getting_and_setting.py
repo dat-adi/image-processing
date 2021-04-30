@@ -65,7 +65,7 @@ print("Bottom Right Corner", br)
 print("Bottom Left Corner", bl)
 
 # Altering the first quarter of the image to turn into green color
-image[0: int(cY), 0: int(cX)] = (0, 255, 0)
+image[0 : int(cY), 0 : int(cX)] = (0, 255, 0)
 
 # Displaying the updated image
 cv2.imshow("Updated", image)

@@ -5,14 +5,14 @@ import cv2
 import numpy as np
 
 ap = argparse.ArgumentParser()
-ap.add_argument("-d", "-db", required=True, help="path to the book database")
+ap.add_argument("-d", "--db", required=True, help="path to the book database")
 ap.add_argument(
     "-c", "--covers", required=True, help="Path to the book covers directory"
 )
 ap.add_argument("-q", "--query", required=True, help="Path to the query book cover")
 args = vars(ap.parse_args())
 
-dad = cv2.xfeatures2d.SIFT_create()
+dad = cv2.SIFT_create()
 des = cv2.xfeatures2d.BriefDescriptorExtractor_create()
 coverPaths = glob.glob(args["covers"] + "/*.jpg")
 
@@ -70,6 +70,7 @@ for I in csv.reader(open(args["db"])):
     queryImage = cv2.imread(args["query"])
     gray = cv2.cvtColor(queryImage, cv2.COLOR_BGR2GRAY)
     (queryKps, queryDescs) = describe(gray)
+    print(queryKps, queryDescs)
 
     results = search(queryKps, queryDescs)
     cv2.imshow("Query", queryImage)

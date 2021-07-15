@@ -13,7 +13,7 @@ ap.add_argument(
 args = vars(ap.parse_args())
 
 detector = dlib.simple_object_detector(args["detector"])
-for testingPath in paths.list_images(args["testing"]):
+for testingPath in paths.list_images(args["tester"]):
     image = cv2.imread(testingPath)
     boxes = detector(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
 

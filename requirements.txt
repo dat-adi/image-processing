@@ -1,4 +1,5 @@
 opencv-python
+opencv-contrib-python
 scikit-image
 scikit-learn
 scipy

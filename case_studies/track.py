@@ -1,5 +1,4 @@
 import argparse
-import imutils
 import cv2
 
 ap = argparse.ArgumentParser()
@@ -20,7 +19,7 @@ while True:
     (grabbed, frame) = camera.read()
     if args.get("video") and not grabbed:
         break
-    frame = imutils.resize(frame, width=600)
+    frame = cv2.resize(frame, (800, 600))
     blurred = cv2.GaussianBlur(frame, (11, 11), 0)
     hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
 
